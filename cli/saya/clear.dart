@@ -1,3 +1,5 @@
+library saya.clear;
+
 import 'dart:io';
 // Clear the console screen
 
