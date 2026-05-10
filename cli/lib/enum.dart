@@ -30,8 +30,8 @@ String readRequiredLine(String prompt) {
 int readAge(String prompt) {
   while (true) {
     stdout.write(prompt);
-    final input = stdin.readLineSync();
-    final age = int.tryParse((input ?? '').trim());
+    final input = stdin.readLineSync(),
+        age = int.tryParse((input ?? '').trim());
 
     if (age != null && age >= 0) {
       return age;
@@ -43,11 +43,15 @@ int readAge(String prompt) {
 
 Gender readGender() {
   while (true) {
-    stdout.writeln('Pilih jenis kelamin:');
-    stdout.writeln('0. Lelaki');
-    stdout.writeln('1. Perempuan');
-    stdout.writeln('2. Trans');
-    stdout.write('Masukkan index: ');
+    stdout.writeln('''
+
+Pilih jenis kelamin:
+0. Lelaki
+1. Perempuan
+2. Trans
+Masukkan index:
+
+''');
 
     final input = stdin.readLineSync();
     final index = int.tryParse((input ?? '').trim());
@@ -90,8 +94,10 @@ void main() {
 
   final human = Human(name: name, age: age, gender: gender);
 
-  stdout.writeln('=== HASIL DATA ===');
-  stdout.writeln('Nama         : ${human.name}');
-  stdout.writeln('Umur         : ${human.age}');
-  stdout.writeln('Jenis kelamin : ${genderLabel(human.gender)}');
+  stdout.writeln('''
+=== HASIL DATA ===');
+Nama          : ${human.name}
+Umur          : ${human.age}
+Jenis kelamin : ${genderLabel(human.gender)}
+''');
 }
