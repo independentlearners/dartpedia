@@ -1,10 +1,9 @@
 import 'dart:async';
-import '../command_runner.dart';
 import 'dart:collection';
+import '../command_runner.dart';
 
 enum OptionType { flag, option }
 
-// Paste this new class below the enum you added
 abstract class Argument {
   String get name;
   String? get help;
@@ -54,9 +53,7 @@ class Option extends Argument {
   }
 }
 
-// Add this class below the Option class
 abstract class Command extends Argument {
-  // Properties and methods will go here
   @override
   String get name;
 
@@ -79,6 +76,7 @@ abstract class Command extends Argument {
 
   UnmodifiableSetView<Option> get options =>
       UnmodifiableSetView(_options.toSet());
+
   // A flag is an [Option] that's treated as a boolean.
   void addFlag(String name, {String? help, String? abbr, String? valueHelp}) {
     _options.add(
@@ -113,7 +111,6 @@ abstract class Command extends Argument {
     );
   }
 
-  // Add the following lines to the bottom of your Command class:
   FutureOr<Object?> run(ArgResults args);
 
   @override

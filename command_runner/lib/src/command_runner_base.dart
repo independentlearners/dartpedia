@@ -1,6 +1,6 @@
-import 'dart:collection';
 import 'dart:io';
 import 'arguments.dart';
+import 'dart:collection';
 
 class CommandRunner {
   final Map<String, Command> _commands = <String, Command>{};

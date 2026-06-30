@@ -2,3 +2,20 @@
 
 Saya berhenti karena saya tidak paham dengan beberapa jenis kode yang dijelaskan utamanya mengenai `_private`.
 Jadi saat ini saya mencoba langsung membedah dokumentasi untuk sebuah kode yang sedang saya susun.
+
+---
+
+Oke, sekarang pada 20 Mei 2026. Saya melanjutkannya lagi dengan tambahan pemahaman yang sudah saya pelajari sebelumnya.
+
+Tugas sekarang adalah:
+
+- 1. Explorasi setiap konsep dan sintaksis untuk setiap kode yang sedang dipelajari dalam jalur pembelajaran ini.
+- 2. Jangan pernah melanjutkan sebelum pemahaman matang pada kode yang sedang di pelajari.
+- 3. Tujuan utamanya adalah bahwa, sangat penting untuk memahami apa dan bagaimana tujuan dari pembelajaran ini.
+- 4. Jika ingin melakukan pengujian kode atau dari kode yang ingin dipelajari. Pastikan bahwa tidak mencemari direktori pembelajaran ini demi tercapainya pemahaman yang solid.
+- 5. Explorasi sebaik mungkin tetapi tetaplah fokus pada jalur pembelajaran dan buat direktori atau proyek baru sebagai ruang untuk pengujian hasil pembelajaran eksplorasi kode dalam docs.
+- 6. Jangan terlalu lama fokus tanpa arah pada sebuah konsep yang belum berkaitan dengan fokus utama (Jalur pembelajaran), kecuali untuk menyelesaikan masalah.
+
+---
+
+> Dokumentasi ini dibuat untuk mewujudkan kalkulasi pembelajaran sekaligus sebagai sebuah langkah untuk menunjukan ketekunan.
