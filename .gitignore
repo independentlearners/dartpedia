@@ -1,0 +1,49 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+#
+# Mengabaikan semua file yang diawali dengan underscore
+_*
+#
+# Mengabaikan semua file dengan extensi berikut di sembarang lokasi:
+*.txt
+# Packages
+.dart_tool/
+#
+# Build output
+build/
+#
+# Generated executables
+*.exe
+*.exe.manifest
+*.dll
+*.so
+*.dylib
+#
+# Coverage
+coverage/
+#
+# IDE
+.idea/
+.vscode/
+#
+# macOS
+.DS_Store
+#
+# Windows
+Thumbs.db
+#
+# Vim/Neovim
+*.swp
+*.swo
+*~
+#
+# Environment
+.env
+.env.*
+# ====================
+# Folder .git/ tidak boleh dimasukkan ke .gitignore.
+#
+# .gitignore hanya mengatur file yang belum dilacak (untracked).
+# Direktori .git adalah metadata internal Git, bukan bagian dari working tree yang dikelola .gitignore.
+# Git tidak pernah mencoba melakukan commit terhadap isi direktori .git ke repository itu sendiri.
+# ====================
